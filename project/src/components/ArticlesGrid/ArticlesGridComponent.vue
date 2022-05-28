@@ -1,14 +1,17 @@
 <template>
   <div class="row">
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4 px-1 d-flex flex-column justify-content-between">
       <ArticleComponent :article="article" v-for="article in col1" :key="article.id"></ArticleComponent>
     </div>
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4 px-1  d-flex flex-column justify-content-between">
       <ArticleComponent :article="article" v-for="article in col2" :key="article.id"></ArticleComponent>
     </div>
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4 px-1  d-flex flex-column justify-content-between">
       <ArticleComponent :article="article" v-for="article in col3" :key="article.id"></ArticleComponent>
     </div>
+  </div>
+  <div class="d-flex">
+    <button class="btn btn-outline-dark mx-auto"> Load moore articles</button>
   </div>
 </template>
 

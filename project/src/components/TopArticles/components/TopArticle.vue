@@ -2,11 +2,11 @@
   <div class="card position-relative" v-bind:style="{ backgroundImage: 'url(' + article.coverImage + ')' }">
     <div class="cst-overlay"></div>
     <div class="card-body position-absolute">
-      <span class="category text-secondary text-uppercase mb-1">{{
+      <span class="category text-uppercase">{{
           Category[article.category]
         }}</span>
-      <h5 class="card-title text-white">{{ article.title }}</h5>
-        <a href="#" class="read-more-btn btn btn-outline-light mt-3">Read More</a>
+      <h5 class="card-title text-white mt-3">{{ article.title }}</h5>
+        <a href="#" class="read-more-btn btn btn-outline-light mt-3 px-3">Read More</a>
     </div>
   </div>
 </template>
@@ -15,8 +15,9 @@
 
 import {Article} from "@/Interfaces";
 import {Category} from "@/Interfaces";
+import {defineComponent} from "vue";
 
-export default {
+export default defineComponent({
   name: "TopArticle",
   props: {
     article: {
@@ -28,7 +29,7 @@ export default {
 
     return {...props, Category}
   }
-}
+})
 </script>
 
 <style scoped>
@@ -53,10 +54,18 @@ export default {
 
 .category{
   font-size: 0.8em;
-  font-weight: 60
+  font-weight: 60;
+  color: white;
+}
+
+.card-title{
+  text-transform: capitalize;
+  font-size: 2.2em;
+  max-height: 85px;
+  overflow: hidden;
 }
 
 .read-more-btn{
-
+  border-radius: 1px;
 }
 </style>

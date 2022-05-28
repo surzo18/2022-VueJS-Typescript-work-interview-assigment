@@ -10,8 +10,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="main-ul" class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          <li class="nav-item active d-flex align-items-center">
             <router-link to="/" class="text-decoration-none">Home</router-link>
+            <i class="bi bi-caret-down-fill ms-2"></i>
           </li>
           <li class="nav-item">
             <router-link to="/" class="text-decoration-none">About</router-link>
@@ -45,7 +46,7 @@ export default {
 }
 
 #main-ul {
-  margin-right: 17%;
+  margin-right: 23%;
 
   .nav-item {
     margin-right: 15%;
@@ -54,5 +55,9 @@ export default {
       color: #2c3e50;
     }
   }
+}
+
+.bi-caret-down-fill{
+font-size: 0.7em;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-12 col-md-6 col-lg-3 px-1" v-for="article in topArticlesData" :key="article.id">
+    <div class="col-12 col-md-6 col-lg-3 px-1 mb-5" v-for="article in topArticlesData" :key="article.id">
       <TopArticle :article="article"></TopArticle>
     </div>
   </div>
