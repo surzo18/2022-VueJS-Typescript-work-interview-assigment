@@ -8,10 +8,12 @@
                 {{ Category[article.category] }}
           </span>
         </div>
-        <h5 class="card-title">{{ article.title }}</h5>
+        <router-link class="text-decoration-none" :to="'/Post/' + article.id">
+          <h5 class="card-title text-black">{{ article.title }}</h5>
+        </router-link>
         <div class="line"></div>
-        <p class="card-text"> {{ article.text }}</p>
-        <a href="" class="btn text-secondary read-moore">Read More</a>
+        <p class="card-text" v-html="article.text.substring(0,255)"> </p>
+        <router-link class="btn text-secondary read-moore" :to="'/Post/' + article.id">Read More</router-link>
       </div>
     </div>
   </div>

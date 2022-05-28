@@ -5,8 +5,10 @@
       <span class="category text-uppercase">{{
           Category[article.category]
         }}</span>
-      <h5 class="card-title text-white mt-3">{{ article.title }}</h5>
-        <a href="#" class="read-more-btn btn btn-outline-light mt-3 px-3">Read More</a>
+      <router-link class="text-decoration-none" :to="'/Post/' + article.id">
+        <h5 class="card-title text-white mt-3">{{ article.title }}</h5>
+      </router-link>
+      <router-link class="read-more-btn btn btn-outline-light mt-3 px-3" :to="'/Post/' + article.id">Read More</router-link>
     </div>
   </div>
 </template>
@@ -68,4 +70,5 @@ export default defineComponent({
 .read-more-btn{
   border-radius: 1px;
 }
+
 </style>

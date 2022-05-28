@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bcaee3-5465-49c4-9bbe-32f8bf6e7a77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/views/BlogView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/views/ContactView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/views/PostView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/ArticlesGrid/ArticlesGridComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/ArticlesGrid/ArticlesGridComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/ArticlesGrid/components/ArticleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/ArticlesGrid/components/ArticleComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/Navigation/NavigationComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/Navigation/NavigationComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/TopArticles/TopArticlesComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/TopArticles/TopArticlesComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/TopArticles/components/TopArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/TopArticles/components/TopArticle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/data/articles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/data/articles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/src/views" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="ts.external.directory.path" value="D:\Code\Zadanie\project\node_modules\typescript\lib" />
@@ -62,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Zadanie\project\src\views" />
       <recent name="D:\Code\Zadanie" />
       <recent name="D:\Code\Zadanie\project\src\data" />
       <recent name="C:\Users\ADMIN\Desktop\zadanie\vue-ts\src\components" />
       <recent name="C:\Users\ADMIN\Desktop\zadanie\vue-ts\src\components\Navigation" />
-      <recent name="C:\Users\ADMIN\Desktop\zadanie\blog\src\components\NavigationComponent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Zadanie\project\src\components\TopArticles" />
@@ -92,7 +99,7 @@
       <workItem from="1653718040719" duration="8648000" />
       <workItem from="1653735811072" duration="16000" />
       <workItem from="1653735828419" duration="18000" />
-      <workItem from="1653735855376" duration="616000" />
+      <workItem from="1653735855376" duration="9725000" />
     </task>
     <servers />
   </component>
