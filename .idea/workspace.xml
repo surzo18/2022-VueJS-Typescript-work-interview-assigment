@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bcaee3-5465-49c4-9bbe-32f8bf6e7a77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/views/BlogView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/views/ContactView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/views/PostView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/components/ArticlesGrid/ArticlesGridComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/ArticlesGrid/ArticlesGridComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/ArticlesGrid/components/ArticleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/ArticlesGrid/components/ArticleComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/Navigation/NavigationComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/Navigation/NavigationComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/components/TopArticles/TopArticlesComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/TopArticles/TopArticlesComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/TopArticles/components/TopArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/TopArticles/components/TopArticle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/data/articles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/data/articles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +90,8 @@
       <workItem from="1653718040719" duration="8648000" />
       <workItem from="1653735811072" duration="16000" />
       <workItem from="1653735828419" duration="18000" />
-      <workItem from="1653735855376" duration="9725000" />
+      <workItem from="1653735855376" duration="11015000" />
+      <workItem from="1653889814678" duration="1785000" />
     </task>
     <servers />
   </component>

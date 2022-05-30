@@ -1,7 +1,9 @@
 <template>
   <div class="card">
     <div class="card-body">
-      <img :src="article.coverImage" class="card-img-top" :alt="article.title">
+      <router-link class="img-link text-decoration-none" :to="'/Post/' + article.id">
+        <img :src="article.coverImage" class="card-img-top" :alt="article.title">
+      </router-link>
       <div class="card-body">
         <div class="mb-2">
           <span class="category text-secondary text-uppercase my-3">
@@ -58,4 +60,13 @@ export default defineComponent({
 .read-moore{
   font-weight: bold;
 }
+
+.read-moore:hover, .card-title:hover{
+  color:#F65555!important;
+}
+
+.read-moore:hover, .card-title:hover{
+  color:#F65555!important;
+}
+
 </style>

@@ -24,7 +24,6 @@ export default defineComponent({
 
 #app {
   font-family: 'Tiro Devanagari Sanskrit', serif;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

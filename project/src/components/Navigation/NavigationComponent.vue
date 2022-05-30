@@ -10,7 +10,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="main-ul" class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item active d-flex align-items-center" v-for="(link,key) in navigation" :key="key">
+          <li class="nav-item active d-flex align-items-center mt-2 mt-lg-0" v-for="(link,key) in navigation" :key="key">
             <router-link :to='"/" + link' class="text-decoration-none" >{{
                 link
               }}
@@ -60,6 +60,10 @@ export default defineComponent({
     a {
       color: #2c3e50;
     }
+  }
+
+  .nav-item a:hover{
+    color:#F65555;
   }
 }
 

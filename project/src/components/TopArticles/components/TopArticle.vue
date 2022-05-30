@@ -42,6 +42,14 @@ export default defineComponent({
   min-height:550px;
 }
 
+.card:hover{
+  cursor:pointer;
+}
+
+.card:hover >.cst-overlay{
+  background-color: rgba(0,0,0,0.6);
+}
+
 .card-body{
   bottom:40px;
   width:100%;
