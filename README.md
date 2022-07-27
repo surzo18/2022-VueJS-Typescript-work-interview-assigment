@@ -2,6 +2,7 @@
 
 ##INSTALLATION GUIDE
 ```
-> run npm install in prooject folder
-> run npm run serve
+> in prooject folder run: npm install
+> run: npm run serve
 ```
+
