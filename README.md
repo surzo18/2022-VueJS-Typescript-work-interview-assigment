@@ -1,9 +1,3 @@
-## INSTALLATION GUIDE
-```
-> in prooject folder run: npm install
-> run: npm run serve
-```
-
 #  Elaborated assignment from the interview [VUE.JS + TypeScript] (2022)
 
 ![Preview](https://github.com/surzo18/Zadanie/blob/main/Preview.png)
@@ -28,6 +22,10 @@ They are linked directly to index.html by link, so you don't need download anyth
 
 ```
 npm install
+```
+THEN...
+```
+npm run serve
 ```
 
 This download all depedencies. **
